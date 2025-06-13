@@ -1,0 +1,4 @@
+baseURL = 'https://tekeoglan.blog/'
+languageCode = 'en-us'
+title = 'Tekeoglan Blog'
+theme = 'hugo-theme-stack'

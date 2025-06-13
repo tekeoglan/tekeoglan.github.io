@@ -1,0 +1,19 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*~
