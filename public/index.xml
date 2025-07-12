@@ -7,7 +7,44 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>tekeoglan</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My Personal Desktop Setup Jorney</title>
+        <link>http://localhost:1313/p/my-personal-desktop-setup-jorney/</link>
+        <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/my-personal-desktop-setup-jorney/</guid>
+        <description>&lt;h2 id=&#34;operating-system&#34;&gt;Operating System
+&lt;/h2&gt;&lt;p&gt;Right now, I’m running &lt;strong&gt;Fedora&lt;/strong&gt;. But it wasn’t always that way. I started out on &lt;strong&gt;Windows&lt;/strong&gt;, mostly using my PC for gaming and browsing the internet. It did the job, and I was comfortable with it. But everything changed when I started getting into programming.&lt;/p&gt;
+&lt;p&gt;As I began exploring the world of code, I kept hearing how great &lt;strong&gt;Linux&lt;/strong&gt; was for developers. That got me curious. My first stop? &lt;strong&gt;Ubuntu&lt;/strong&gt;—mostly because it was known to be the most user-friendly and easiest distro to install.&lt;/p&gt;
+&lt;p&gt;Ubuntu was a great introduction to Linux. The installation went smoothly, and I enjoyed the overall experience. But eventually, I ran into a problem that really frustrated me: the software packages.&lt;/p&gt;
+&lt;p&gt;Because Ubuntu is based on Debian, the packages in the official repositories tend to lag behind the latest releases—or worse, they might not be available at all. Sure, this makes the system more stable, but it also makes it feel outdated. That was a dealbreaker for me.&lt;/p&gt;
+&lt;h3 id=&#34;trying-arch&#34;&gt;Trying Arch
+&lt;/h3&gt;&lt;p&gt;Next up was the legendary &lt;strong&gt;Arch Linux&lt;/strong&gt;. At that point, I’d watched countless videos where people praised Arch like it was the holy grail of operating systems—flexible, powerful, and perfect for &amp;ldquo;superior&amp;rdquo; users (you know the type). Naturally, I was hyped.&lt;/p&gt;
+&lt;p&gt;After using Linux for a few months, I decided to try installing Arch with the official installer. Let’s just say&amp;hellip; it didn’t go as planned. I couldn’t get the desktop environment set up properly, and all I saw was a terminal on a black screen. It took me hours to get a working desktop, and when I finally did, I felt a huge sense of accomplishment.&lt;/p&gt;
+&lt;p&gt;Little did I know—that was just the beginning of my Arch adventure. The sound didn’t work, and a bunch of other things broke. I’ve honestly blocked some of it out. That’s when I realized pure Arch just wasn’t for me.&lt;/p&gt;
+&lt;h3 id=&#34;enter-manjaro&#34;&gt;Enter Manjaro
+&lt;/h3&gt;&lt;p&gt;After some research, I found &lt;strong&gt;Manjaro&lt;/strong&gt;, a distro based on Arch but with a user-friendly graphical installer and pre-configured environment. It felt fresh. I loved that the packages were up-to-date, and with access to the &lt;strong&gt;AUR (Arch User Repository)&lt;/strong&gt;, I could find just about anything I needed.&lt;/p&gt;
+&lt;p&gt;But then came the downside: constant updates. Every time I opened the software manager, there were dozens of updates—even for packages that were just updated the day before. And worse, some of those updates broke parts of my system. It became exhausting, and I realized that bleeding-edge freshness wasn’t worth the hassle for me.&lt;/p&gt;
+&lt;h3 id=&#34;finding-my-home-with-fedora&#34;&gt;Finding My Home with Fedora
+&lt;/h3&gt;&lt;p&gt;That’s when I gave &lt;strong&gt;Fedora&lt;/strong&gt; a shot. It’s the upstream of Red Hat, backed by an enterprise, which gave me confidence in its stability. It isn’t quite as bleeding-edge as Arch, but it’s far more up-to-date than Ubuntu. Best of all, Fedora has regular rollouts that are stable, reliable, and rarely break anything on update.&lt;/p&gt;
+&lt;p&gt;For me, it struck the perfect balance. I’ve been using Fedora ever since—and honestly, I don’t see myself switching anytime soon.&lt;/p&gt;
+&lt;h2 id=&#34;desktop-environment&#34;&gt;Desktop Environment
+&lt;/h2&gt;&lt;p&gt;I did install Fedora with GNOME and I was initially happy with the look of &lt;strong&gt;GNOME&lt;/strong&gt;. It was sleek, the animations were snappy, and the GNOME Shell extensions made the top bar more functional. But there were some problems. Switching between windows felt clunky, and every time I opened an app, I had to manually position and resize the window. That got tedious fast. Some of the indicators I wanted weren’t available, and customization was basically non-existent. GNOME felt limiting.&lt;/p&gt;
+&lt;p&gt;Then I came across &lt;strong&gt;i3&lt;/strong&gt;, and it was a game-changer. The thing I needed was a &lt;strong&gt;tiling window manager&lt;/strong&gt;. Windows opened automatically in a layout—I didn’t have to manage them manually anymore. I could customize nearly every aspect of my desktop: the dock, the top bar, extra widgets… everything. The overall experience was superb. After I got used to it, I realized something: my entire setup consisted of just a top bar (i.e., &lt;strong&gt;Waybar&lt;/strong&gt;). And honestly, that was enough for me, for a while.&lt;/p&gt;
+&lt;p&gt;However, I was handling everything through commands with zero user interface. It started to feel a bit too primitive.&lt;/p&gt;
+&lt;p&gt;That’s when I found &lt;a class=&#34;link&#34; href=&#34;https://end-4.github.io/dots-hyprland-wiki/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;illogical-impulse&lt;/strong&gt;&lt;/a&gt;—a preconfigured Hyprland-based desktop environment. It had everything I wanted: beautiful widgets, slick utility buttons, fancy indicators, and a polished look. It felt like the perfect desktop I’d been searching for. And the best part? I can configure every piece of it and create custom widgets using a declarative programming language.&lt;/p&gt;
+&lt;p&gt;I’m genuinely happy with it.&lt;/p&gt;
+&lt;h2 id=&#34;package-manager&#34;&gt;Package Manager
+&lt;/h2&gt;&lt;p&gt;As I mentioned earlier, I switched distros mostly because of issues I had with their package managers—and that journey ultimately led me to &lt;strong&gt;Fedora&lt;/strong&gt;. While Fedora’s package manager provides a good selection of software out of the box, it has its own limitations. You can’t always find newly released packages by default, so you often have to add third-party repositories, install via &lt;strong&gt;Flathub&lt;/strong&gt;, or, in the worst case, manually install binaries.&lt;/p&gt;
+&lt;p&gt;Over the years, I’ve accumulated so many different sources for packages that it’s hard to keep track of them all. And since there’s no other distro I want to switch to (I really like Fedora!), I’ve gradually started transitioning to the &lt;a class=&#34;link&#34; href=&#34;https://nixos.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Nix package manager&lt;/strong&gt;&lt;/a&gt; with &lt;strong&gt;Home Manager&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nix has everything I could possibly need—it even has packages that &lt;strong&gt;Arch&lt;/strong&gt; doesn’t. I’ve come to see it as the &lt;em&gt;ultimate package manager&lt;/em&gt; for Linux. But it’s more than that: Nix is essentially a build tool and many developers now build their projects using Nix, which makes it incredibly easy to install and run those projects on your own system. I’ve also started migrating &lt;a class=&#34;link&#34; href=&#34;https://github.com/tekeoglan/dotfiles&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;my dotfiles&lt;/strong&gt;&lt;/a&gt; to Home Manager to better manage and replicate my setup.&lt;/p&gt;
+&lt;p&gt;I’m still in the early stages of adopting Nix, but its core promise of &lt;strong&gt;reproducibility&lt;/strong&gt; is incredibly compelling. And the fact that you configure everything using a programming language? That’s the cherry on top.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Archives</title>
         <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>

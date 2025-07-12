@@ -6,6 +6,23 @@
         <description>Recent content in Categories on Tekeoglan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>tekeoglan</copyright><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>tekeoglan</copyright>
+        <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Desktop</title>
+        <link>http://localhost:1313/categories/desktop/</link>
+        <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/desktop/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Personal</title>
+        <link>http://localhost:1313/categories/personal/</link>
+        <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/personal/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

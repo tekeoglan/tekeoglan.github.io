@@ -1,0 +1,75 @@
+---
+title: My Personal Desktop Setup Jorney
+date: 2025-07-12
+description: A brief summary about my experience with different setups and how I eventually landed on a setup I really enjoy.
+categories: [Personal,Desktop]
+tags: [setup]
+draft: false
+keywords: [
+    personal desktop setup,
+    Fedora Linux setup,
+    Arch vs Manjaro vs Fedora,
+    i3 tiling window manager,
+    Hyprland desktop environment,
+    Linux desktop customization,
+    switching from Windows to Linux,
+    GNOME vs i3 vs Hyprland,
+    Nix package manager,
+    Home Manager dotfiles,
+    Linux package manager comparison,
+    custom Linux environment,
+    developer Linux desktop experience
+]
+---
+
+## Operating System
+
+Right now, I’m running **Fedora**. But it wasn’t always that way. I started out on **Windows**, mostly using my PC for gaming and browsing the internet. It did the job, and I was comfortable with it. But everything changed when I started getting into programming.
+
+As I began exploring the world of code, I kept hearing how great **Linux** was for developers. That got me curious. My first stop? **Ubuntu**—mostly because it was known to be the most user-friendly and easiest distro to install.
+
+Ubuntu was a great introduction to Linux. The installation went smoothly, and I enjoyed the overall experience. But eventually, I ran into a problem that really frustrated me: the software packages.
+
+Because Ubuntu is based on Debian, the packages in the official repositories tend to lag behind the latest releases—or worse, they might not be available at all. Sure, this makes the system more stable, but it also makes it feel outdated. That was a dealbreaker for me.
+
+### Trying Arch
+
+Next up was the legendary **Arch Linux**. At that point, I’d watched countless videos where people praised Arch like it was the holy grail of operating systems—flexible, powerful, and perfect for "superior" users (you know the type). Naturally, I was hyped.
+
+After using Linux for a few months, I decided to try installing Arch with the official installer. Let’s just say... it didn’t go as planned. I couldn’t get the desktop environment set up properly, and all I saw was a terminal on a black screen. It took me hours to get a working desktop, and when I finally did, I felt a huge sense of accomplishment.
+
+Little did I know—that was just the beginning of my Arch adventure. The sound didn’t work, and a bunch of other things broke. I’ve honestly blocked some of it out. That’s when I realized pure Arch just wasn’t for me.
+
+### Enter Manjaro
+
+After some research, I found **Manjaro**, a distro based on Arch but with a user-friendly graphical installer and pre-configured environment. It felt fresh. I loved that the packages were up-to-date, and with access to the **AUR (Arch User Repository)**, I could find just about anything I needed.
+
+But then came the downside: constant updates. Every time I opened the software manager, there were dozens of updates—even for packages that were just updated the day before. And worse, some of those updates broke parts of my system. It became exhausting, and I realized that bleeding-edge freshness wasn’t worth the hassle for me.
+
+### Finding My Home with Fedora
+
+That’s when I gave **Fedora** a shot. It’s the upstream of Red Hat, backed by an enterprise, which gave me confidence in its stability. It isn’t quite as bleeding-edge as Arch, but it’s far more up-to-date than Ubuntu. Best of all, Fedora has regular rollouts that are stable, reliable, and rarely break anything on update.
+
+For me, it struck the perfect balance. I’ve been using Fedora ever since—and honestly, I don’t see myself switching anytime soon.
+
+## Desktop Environment
+
+I did install Fedora with GNOME and I was initially happy with the look of **GNOME**. It was sleek, the animations were snappy, and the GNOME Shell extensions made the top bar more functional. But there were some problems. Switching between windows felt clunky, and every time I opened an app, I had to manually position and resize the window. That got tedious fast. Some of the indicators I wanted weren’t available, and customization was basically non-existent. GNOME felt limiting.
+
+Then I came across **i3**, and it was a game-changer. The thing I needed was a **tiling window manager**. Windows opened automatically in a layout—I didn’t have to manage them manually anymore. I could customize nearly every aspect of my desktop: the dock, the top bar, extra widgets… everything. The overall experience was superb. After I got used to it, I realized something: my entire setup consisted of just a top bar (i.e., **Waybar**). And honestly, that was enough for me, for a while.
+
+However, I was handling everything through commands with zero user interface. It started to feel a bit too primitive.
+
+That’s when I found [**illogical-impulse**](https://end-4.github.io/dots-hyprland-wiki/)—a preconfigured Hyprland-based desktop environment. It had everything I wanted: beautiful widgets, slick utility buttons, fancy indicators, and a polished look. It felt like the perfect desktop I’d been searching for. And the best part? I can configure every piece of it and create custom widgets using a declarative programming language.
+
+I’m genuinely happy with it.
+
+## Package Manager
+
+As I mentioned earlier, I switched distros mostly because of issues I had with their package managers—and that journey ultimately led me to **Fedora**. While Fedora’s package manager provides a good selection of software out of the box, it has its own limitations. You can’t always find newly released packages by default, so you often have to add third-party repositories, install via **Flathub**, or, in the worst case, manually install binaries.
+
+Over the years, I’ve accumulated so many different sources for packages that it’s hard to keep track of them all. And since there’s no other distro I want to switch to (I really like Fedora!), I’ve gradually started transitioning to the [**Nix package manager**](https://nixos.org) with **Home Manager**.
+
+Nix has everything I could possibly need—it even has packages that **Arch** doesn’t. I’ve come to see it as the _ultimate package manager_ for Linux. But it’s more than that: Nix is essentially a build tool and many developers now build their projects using Nix, which makes it incredibly easy to install and run those projects on your own system. I’ve also started migrating [**my dotfiles**](https://github.com/tekeoglan/dotfiles) to Home Manager to better manage and replicate my setup.
+
+I’m still in the early stages of adopting Nix, but its core promise of **reproducibility** is incredibly compelling. And the fact that you configure everything using a programming language? That’s the cherry on top.
